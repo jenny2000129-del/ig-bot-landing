@@ -7,6 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 font-sans leading-normal tracking-normal">
+
     <nav class="bg-white p-4 shadow-md">
         <div class="container mx-auto flex justify-between items-center">
             <span class="text-xl font-bold text-blue-600">澳洲二三籤查詢神器</span>
@@ -16,10 +17,17 @@
             </div>
         </div>
     </nav>
+
     <header class="py-20 bg-gradient-to-r from-blue-500 to-indigo-600 text-white text-center">
         <h1 class="text-4xl md:text-5xl font-extrabold mb-4">解鎖您的澳洲自動化查詢體驗</h1>
         <p class="text-xl opacity-90">透過 Instagram 留言互動，即時獲取專業 ERP 查詢工具連結</p>
     </header>
+<div class="text-center py-10">
+    <button onclick="alert('接下來將跳出 Facebook 授權視窗，請求 pages_show_list 權限')" 
+            class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300">
+        連結 Facebook 粉絲專頁
+    </button>
+</div>
     <section id="about" class="container mx-auto py-16 px-4">
         <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">服務運作流程</h2>
         <div class="grid md:grid-cols-3 gap-8">
@@ -40,6 +48,7 @@
             </div>
         </div>
     </section>
+
     <section id="privacy" class="bg-white py-16">
         <div class="container mx-auto px-4 max-w-4xl">
             <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">隱私政策與服務條款</h2>
@@ -54,8 +63,11 @@
             </div>
         </div>
     </section>
+
     <footer class="bg-gray-800 text-gray-400 py-8 text-center">
         <p>&copy; 2026 Jamie's ERP Bot. All rights reserved.</p>
+        <p class="text-sm mt-2">本服務依據 Meta 開發者條款提供技術串接服務。</p>
     </footer>
+
 </body>
 </html>
